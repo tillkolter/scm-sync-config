@@ -3,7 +3,7 @@
   <fullName>admin</fullName>
   <properties>
     <jenkins.security.ApiTokenProperty>
-      <apiToken>{AQAAABAAAAAwxoacmBZrQPFzB3mZrrS7JtN+0I/OUcTc1napG29PAFa5gCMOJB0UkVSz3B/s2+qH8PZ45qUOadQumRlraZk/0Q==}</apiToken>
+      <apiToken>{AQAAABAAAAAw++ePlxBavIQgdaL4cf/RFQcaWdQWWty35OeRWl+raQxUX/Q/HmRwo6TqEmA94WP1FZLfOpryT6pQLKo8phN5NA==}</apiToken>
     </jenkins.security.ApiTokenProperty>
     <com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty plugin="credentials@2.1.16">
       <domainCredentialsMap class="hudson.util.CopyOnWriteMap$Hash"/>
@@ -32,14 +32,8 @@
     <hudson.search.UserSearchProperty>
       <insensitiveSearch>true</insensitiveSearch>
     </hudson.search.UserSearchProperty>
-    <jenkins.security.LastGrantedAuthoritiesProperty>
-      <roles>
-        <string>authenticated</string>
-      </roles>
-      <timestamp>1513775327591</timestamp>
-    </jenkins.security.LastGrantedAuthoritiesProperty>
     <hudson.security.HudsonPrivateSecurityRealm_-Details>
-      <passwordHash>#jbcrypt:$2a$10$5gvi0mxeR8x09h8X9/s2uufhKnUsYzTefan65PGKYo0p7SfOeM1CC</passwordHash>
+      <passwordHash>#jbcrypt:$2a$10$ocZ7J/otZPpZ0/X9lBr4auxr/dTI4qyeIFcRkb9HNnqoYpyG4u8lS</passwordHash>
     </hudson.security.HudsonPrivateSecurityRealm_-Details>
   </properties>
 </user>
