@@ -39,8 +39,8 @@ git_hash=&quot;develop-$(git rev-parse --short HEAD)&quot;
 tag_name=&quot;crispy-crunch:${git_hash}&quot;
 
 docker build -t ${tag_name} .
-docker tag ${tag_name} reg-local.12k.co/${tag_name}
-docker push reg-local.12k.co/${tag_name}
+docker tag ${tag_name} registry-local.12k.co/${tag_name}
+docker push registry-local.12k.co/${tag_name}
 
 echo &quot;hello world&quot;</command>
     </hudson.tasks.Shell>
